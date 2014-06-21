@@ -1,4 +1,4 @@
-Docker support in Azure was announced a few days ago. Right now, in order to use it you need to install azure cli from dev tree https://github.com/Azure/azure-sdk-tools-xplat/tree/dev
+Docker support in Azure was announced a few days ago http://msopentech.com/blog/2014/06/09/docker-on-microsoft-azure/. Right now, in order to use it you need to install azure cli from dev tree https://github.com/Azure/azure-sdk-tools-xplat/tree/dev
 
 Then as explained in https://github.com/MSOpenTech/azure-sdk-tools-xplat/issues/1 the cli new feature requires the Ubuntu image you use to have waagent 2.0.5 so you have to use http://jlmpublishing.blob.core.windows.net/vhd-store/umcemmew.zbl201406032125500609.vhd as a base image for your vm.
 
